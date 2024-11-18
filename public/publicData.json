@@ -1,0 +1,173 @@
+[
+    {
+      "product_id": 1,
+      "product_title": "iPhone 15 Pro Max",
+      "product_img": "https://example.com/images/iphone15promax.jpg",
+      "category": "Smartphone",
+      "price": 1299.99,
+      "description": "Apple's latest flagship with titanium design and A17 Pro chip.",
+      "specification": [
+        "6.7-inch Super Retina XDR display",
+        "A17 Pro chip",
+        "48MP Main camera",
+        "5G capable",
+        "Titanium body"
+      ],
+      "availability": true,
+      "rating": 4.8
+    },
+    {
+      "product_id": 2,
+      "product_title": "Samsung Galaxy S23 Ultra",
+      "product_img": "https://example.com/images/galaxys23ultra.jpg",
+      "category": "Smartphone",
+      "price": 1199.99,
+      "description": "Premium smartphone with S Pen and 200MP camera.",
+      "specification": [
+        "6.8-inch Dynamic AMOLED 2X display",
+        "Snapdragon 8 Gen 2",
+        "200MP camera",
+        "5G connectivity",
+        "Integrated S Pen"
+      ],
+      "availability": true,
+      "rating": 4.7
+    },
+    {
+      "product_id": 3,
+      "product_title": "Google Pixel 8 Pro",
+      "product_img": "https://example.com/images/pixel8pro.jpg",
+      "category": "Smartphone",
+      "price": 999.99,
+      "description": "AI-driven flagship phone by Google with Tensor G3 chip.",
+      "specification": [
+        "6.7-inch LTPO OLED display",
+        "Tensor G3 processor",
+        "50MP triple camera",
+        "5G ready",
+        "Titanium frame"
+      ],
+      "availability": false,
+      "rating": 4.6
+    },
+    {
+      "product_id": 4,
+      "product_title": "OnePlus 12",
+      "product_img": "https://example.com/images/oneplus12.jpg",
+      "category": "Smartphone",
+      "price": 899.99,
+      "description": "Fluid AMOLED display with Snapdragon 8 Gen 3.",
+      "specification": [
+        "6.8-inch Fluid AMOLED display",
+        "Snapdragon 8 Gen 3",
+        "50MP Hasselblad camera",
+        "5G enabled",
+        "120Hz refresh rate"
+      ],
+      "availability": true,
+      "rating": 4.5
+    },
+    {
+      "product_id": 5,
+      "product_title": "Xiaomi 13 Pro",
+      "product_img": "https://example.com/images/xiaomi13pro.jpg",
+      "category": "Smartphone",
+      "price": 799.99,
+      "description": "Flagship by Xiaomi with Leica-powered cameras.",
+      "specification": [
+        "6.73-inch AMOLED display",
+        "Snapdragon 8 Gen 2",
+        "50MP Leica camera",
+        "5G connectivity",
+        "67W fast charging"
+      ],
+      "availability": true,
+      "rating": 4.4
+    },
+    {
+      "product_id": 6,
+      "product_title": "Sony Xperia 1 V",
+      "product_img": "https://example.com/images/xperia1v.jpg",
+      "category": "Smartphone",
+      "price": 1199.99,
+      "description": "Cinematic smartphone experience with 4K OLED display.",
+      "specification": [
+        "6.5-inch 4K OLED display",
+        "Snapdragon 8 Gen 2",
+        "48MP triple-lens camera",
+        "5G compatible",
+        "Cinematic recording features"
+      ],
+      "availability": true,
+      "rating": 4.6
+    },
+    {
+      "product_id": 7,
+      "product_title": "Asus ROG Phone 7 Ultimate",
+      "product_img": "https://example.com/images/rogphone7ultimate.jpg",
+      "category": "Gaming Smartphone",
+      "price": 1399.99,
+      "description": "Gaming powerhouse with advanced cooling and AMOLED display.",
+      "specification": [
+        "6.78-inch AMOLED display",
+        "Snapdragon 8 Gen 2",
+        "16GB RAM",
+        "Gaming-specific cooling system",
+        "6000mAh battery"
+      ],
+      "availability": true,
+      "rating": 4.8
+    },
+    {
+      "product_id": 8,
+      "product_title": "Motorola Edge 40 Pro",
+      "product_img": "https://example.com/images/edge40pro.jpg",
+      "category": "Smartphone",
+      "price": 899.99,
+      "description": "Curved display with high refresh rate and 125W charging.",
+      "specification": [
+        "6.7-inch OLED display",
+        "Snapdragon 8 Gen 2",
+        "50MP camera",
+        "5G enabled",
+        "125W fast charging"
+      ],
+      "availability": true,
+      "rating": 4.4
+    },
+    {
+      "product_id": 9,
+      "product_title": "Realme GT 5",
+      "product_img": "https://example.com/images/realmegt5.jpg",
+      "category": "Smartphone",
+      "price": 699.99,
+      "description": "Affordable flagship with high performance and fast charging.",
+      "specification": [
+        "6.74-inch AMOLED display",
+        "Snapdragon 8 Gen 2",
+        "50MP camera",
+        "240W fast charging",
+        "5G capable"
+      ],
+      "availability": true,
+      "rating": 4.3
+    },
+    {
+      "product_id": 10,
+      "product_title": "Honor Magic 5 Pro",
+      "product_img": "https://example.com/images/magic5pro.jpg",
+      "category": "Smartphone",
+      "price": 1199.99,
+      "description": "Premium smartphone with curved OLED display and powerful camera.",
+      "specification": [
+        "6.81-inch OLED display",
+        "Snapdragon 8 Gen 2",
+        "50MP triple camera",
+        "5G enabled",
+        "100W wireless charging"
+      ],
+      "availability": true,
+      "rating": 4.5
+    }
+  ]
+  
