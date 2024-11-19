@@ -8,6 +8,8 @@ import {
 } from "react-router-dom";
 import Root from './components/Root/Root';
 import Home from './components/Home/Home';
+import Details from './components/Details/Details';
+import Statistics from './components/Statistics/Statistics';
 
 const router = createBrowserRouter([
   {
@@ -15,10 +17,18 @@ const router = createBrowserRouter([
     element: <Root></Root>,
     children: [
       {
-        //there is use should be command line
         path: '/',
         element: <Home></Home>
-      }
+      },
+      {
+        path: 'details/:product_id',
+        element: <Details></Details>,
+        loader: () => fetch('/productsData.json')
+      },
+      {
+        path: '/statistics',
+        element: <Statistics></Statistics>
+      },
     ]
   },
 ]);

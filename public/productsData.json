@@ -1,0 +1,312 @@
+[
+  {
+    "product_id": 1,
+    "product_title": "iPhone 15 Pro",
+    "product_img": "https://i.ibb.co.com/V9Rjkq7/15-pro-maz.jpg",
+    "category": "Phone",
+    "price": 999,
+    "description": "A premium smartphone with advanced features and performance.",
+    "specification": [
+      "256GB Storage",
+      "48MP Camera",
+      "3200mAh Battery",
+      "A16 Bionic Chip"
+    ],
+    "available": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": 2,
+    "product_title": "Samsung Galaxy S23 Ultra",
+    "product_img": "https://i.ibb.co.com/yB69DnF/s23-ultra.jpg",
+    "category": "Phone",
+    "price": 1199,
+    "description": "A flagship smartphone with superior camera and performance.",
+    "specification": [
+      "512GB Storage",
+      "200MP Camera",
+      "5000mAh Battery",
+      "Snapdragon 8 Gen 2"
+    ],
+    "available": true,
+    "rating": 4.9
+  },
+  {
+    "product_id": 3,
+    "product_title": "Google Pixel 8 Pro",
+    "product_img": "https://i.ibb.co.com/XVC0FLK/Google-Pixel-8-Pro.jpg",
+    "category": "Phone",
+    "price": 899,
+    "description": "A smartphone with industry-leading AI features and camera quality.",
+    "specification": [
+      "128GB Storage",
+      "50MP Camera",
+      "4355mAh Battery",
+      "Google Tensor G3"
+    ],
+    "available": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": 4,
+    "product_title": "OnePlus 12",
+    "product_img": "https://i.ibb.co.com/FnnQcg4/One-Plus-12-Silky-Black-5868.jpg",
+    "category": "Phone",
+    "price": 699,
+    "description": "A high-performance smartphone with sleek design.",
+    "specification": [
+      "256GB Storage",
+      "50MP Camera",
+      "5000mAh Battery",
+      "Snapdragon 8 Gen 2"
+    ],
+    "available": false,
+    "rating": 4.6
+  },
+  {
+    "product_id": 5,
+    "product_title": "Xiaomi 13 Pro",
+    "product_img": "https://i.ibb.co.com/8zRFyZT/Xiaomi-13-Pro-Ceramic-White-4073.jpg",
+    "category": "Phone",
+    "price": 799,
+    "description": "A flagship smartphone with premium features at a great price.",
+    "specification": [
+      "256GB Storage",
+      "50MP Camera",
+      "4820mAh Battery",
+      "Snapdragon 8 Gen 2"
+    ],
+    "available": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": 6,
+    "product_title": "MacBook Pro 16",
+    "product_img": "https://i.ibb.co.com/xS6QGpW/mac.jpg",
+    "category": "Laptop",
+    "price": 2499,
+    "description": "A high-performance laptop for professionals and creatives.",
+    "specification": [
+      "M2 Pro Processor",
+      "16GB RAM",
+      "512GB SSD Storage",
+      "16-inch Retina Display"
+    ],
+    "available": true,
+    "rating": 4.9
+  },
+  {
+    "product_id": 7,
+    "product_title": "Dell XPS 15",
+    "product_img": "https://i.ibb.co.com/7ytpCBZ/dell.jpg",
+    "category": "Laptop",
+    "price": 1999,
+    "description": "A sleek and powerful laptop with stunning display quality.",
+    "specification": [
+      "Intel i7 Processor",
+      "16GB RAM",
+      "1TB SSD Storage",
+      "15-inch 4K Display"
+    ],
+    "available": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": 8,
+    "product_title": "HP Spectre x360",
+    "product_img": "https://i.ibb.co.com/3NP3WTc/hp.jpg",
+    "category": "Laptop",
+    "price": 1599,
+    "description": "A convertible laptop with premium build and performance.",
+    "specification": [
+      "Intel i7 Processor",
+      "16GB RAM",
+      "512GB SSD Storage",
+      "13.5-inch OLED Display"
+    ],
+    "available": false,
+    "rating": 4.6
+  },
+  {
+    "product_id": 9,
+    "product_title": "Lenovo ThinkPad X1 Carbon",
+    "product_img": "https://i.ibb.co.com/ChGRBk2/lenovo.jpg",
+    "category": "Laptop",
+    "price": 1699,
+    "description": "A reliable business laptop with excellent durability and performance.",
+    "specification": [
+      "Intel i5 Processor",
+      "16GB RAM",
+      "1TB SSD Storage",
+      "14-inch Display"
+    ],
+    "available": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": 10,
+    "product_title": "Asus ROG Zephyrus G14",
+    "product_img": "https://i.ibb.co.com/NykzV0t/asus-rog.jpg",
+    "category": "Laptop",
+    "price": 1799,
+    "description": "A gaming laptop with top-tier graphics and performance.",
+    "specification": [
+      "AMD Ryzen 9",
+      "32GB RAM",
+      "1TB SSD Storage",
+      "14-inch QHD Display"
+    ],
+    "available": true,
+    "rating": 4.9
+  },
+  {
+    "product_id": 11,
+    "product_title": "Amazon Echo Dot",
+    "product_img": "https://i.ibb.co.com/bmhBsLN/amazon-echo-dot.jpg",
+    "category": "Gadget",
+    "price": 49,
+    "description": "A compact smart speaker with Alexa.",
+    "specification": [
+      "Compact Design",
+      "Voice Control",
+      "Bluetooth and Wi-Fi Connectivity"
+    ],
+    "available": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": 12,
+    "product_title": "GoPro Hero 11",
+    "product_img": "https://i.ibb.co.com/8XMMgnT/go-pro.jpg",
+    "category": "Gadget",
+    "price": 399,
+    "description": "An advanced action camera for high-quality videos and photos.",
+    "specification": [
+      "4K Video Recording",
+      "Waterproof",
+      "HyperSmooth Stabilization"
+    ],
+    "available": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": 13,
+    "product_title": "DJI Mini 3",
+    "product_img": "https://i.ibb.co.com/my0hF4P/dji-mini-3.jpg",
+    "category": "Gadget",
+    "price": 549,
+    "description": "A lightweight and portable drone with advanced features.",
+    "specification": [
+      "4K Camera",
+      "GPS",
+      "30-Minute Flight Time"
+    ],
+    "available": false,
+    "rating": 4.7
+  },
+  {
+    "product_id": 14,
+    "product_title": "Kindle Paperwhite",
+    "product_img": "https://i.ibb.co.com/qnhwRHS/kindle.jpg",
+    "category": "Gadget",
+    "price": 129,
+    "description": "An e-reader with a glare-free display and adjustable light.",
+    "specification": [
+      "6-inch Display",
+      "Waterproof",
+      "Weeks of Battery Life"
+    ],
+    "available": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": 15,
+    "product_title": "Anker PowerCore 10000",
+    "product_img": "https://i.ibb.co.com/Tv6XSf8/Anker-Power-Core-10000-PD-Redux-Portable-Power-Bank-22-5-W-3717.jpg",
+    "category": "Gadget",
+    "price": 29,
+    "description": "A portable power bank with fast charging capabilities.",
+    "specification": [
+      "10,000mAh Capacity",
+      "Compact Design",
+      "USB Fast Charging"
+    ],
+    "available": true,
+    "rating": 4.5
+  },
+  {
+    "product_id": 16,
+    "product_title": "Apple Watch Series 9",
+    "product_img": "https://i.ibb.co.com/Wgx7k7k/Apple-Watch-Series-9-3-6716.jpg",
+    "category": "Smart Watch",
+    "price": 399,
+    "description": "A versatile smartwatch with fitness and health tracking features.",
+    "specification": [
+      "Always-On Retina Display",
+      "18-Hour Battery",
+      "Heart Rate Monitor"
+    ],
+    "available": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": 17,
+    "product_title": "Samsung Galaxy Watch 6",
+    "product_img": "https://i.ibb.co.com/QMdB3KF/Galaxy-Watch6-Gold-5232.jpg",
+    "category": "Smart Watch",
+    "price": 329,
+    "description": "A smartwatch designed for fitness enthusiasts and everyday use.",
+    "specification": [
+      "Super AMOLED Display",
+      "40-Hour Battery",
+      "GPS Tracking"
+    ],
+    "available": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": 18,
+    "product_title": "Fitbit Versa 4",
+    "product_img": "https://i.ibb.co.com/qnx0vkj/Versa-4-Black-2109.jpg",
+    "category": "Smart Watch",
+    "price": 229,
+    "description": "A smartwatch focused on fitness and wellness tracking.",
+    "specification": [
+      "LCD Display",
+      "6-Day Battery Life",
+      "Sleep Analysis"
+    ],
+    "available": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": 19,
+    "product_title": "Garmin Venu 2",
+    "product_img": "https://i.ibb.co.com/VQdgtGT/Garmin-Venu-2.jpg",
+    "category": "Smart Watch",
+    "price": 399,
+    "description": "A smartwatch with advanced fitness and health tracking features.",
+    "specification": [
+      "AMOLED Display",
+      "11-Day Battery Life",
+      "Pulse Ox Sensor"
+    ],
+    "available": false,
+    "rating": 4.7
+  },
+  {
+    "product_id": 20,
+    "product_title": "Amazfit GTR 4",
+    "product_img": "https://i.ibb.co.com/jzx2ZJh/Amazfit-GTR-4-Smart-Watch-Fitness-Made-Easy-2.jpg",
+    "category": "Smart Watch",
+    "price": 199,
+    "description": "An affordable smartwatch with comprehensive fitness tracking.",
+    "specification": [
+      "AMOLED Display",
+      "14-Day Battery Life",
+      "GPS Tracking"
+    ],
+    "available": true,
+    "rating": 4.5
+  }
+]

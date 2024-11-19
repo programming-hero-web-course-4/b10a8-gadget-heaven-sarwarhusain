@@ -5,7 +5,7 @@ import Fotear from '../Fotear/Fotear';
 
 const Root = () => {
     return (
-        <div className='max-w-6xl mx-auto'>
+        <div className='w-11/12 mx-auto'>
             <NavBar></NavBar>
             <Outlet></Outlet>
             <Fotear></Fotear>
@@ -15,3 +15,4 @@ const Root = () => {
 
 export default Root;
 
+//max-w-6xl mx-auto

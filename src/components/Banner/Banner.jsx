@@ -2,7 +2,7 @@ import React from 'react';
 
 const Banner = () => {
     return (
-        <section section className="bg-[#9538E2] rounded-md -mt-16 text-white" >
+        <div className="bg-[#9538E2] rounded-md  text-white" >
             <div className="mx-auto max-w-screen-xl px-4 py-32 lg:h-screen lg:items-center">
                 <div className="mx-auto text-center">
                     <h1 className="text-3xl font-extrabold sm:text-4xl">
@@ -10,22 +10,23 @@ const Banner = () => {
                     </h1>
 
                     <p className="mt-4 sm:text-base/relaxed">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt illo tenetur fuga ducimus
-                        numquam ea!
+                        Explore the latest gadgets that will take your experience to the next level. From smart devices to  <br /> the coolest accessories, we have it all!
                     </p>
 
                     <div className="mt-8 flex flex-wrap justify-center gap-4">
-                        <button
-                            className="block w-full rounded-full bg-white px-12 py-3 text-sm font-medium text-black shadow hover:bg-yellow-100 focus:outline-none focus:ring active:bg-white sm:w-auto"
+                    <button
+                            className="group inline-block rounded-full bg-gradient-to-r from-purple-200 via-purple-500 to-yellow-200 p-[2px] hover:text-black focus:outline-none focus:ring active:text-opacity-75" 
                             href="#"
                         >
-                            Shop
+                            <span
+                                className="block rounded-full bg-indigo-100 px-8 py-3 text-sm font-medium text-black group-hover:bg-transparent"
+                            >Shop</span>
                         </button>
                     </div>
                 </div>
             </div>
-          
-        </section >
+
+        </div >
     );
 };
 
