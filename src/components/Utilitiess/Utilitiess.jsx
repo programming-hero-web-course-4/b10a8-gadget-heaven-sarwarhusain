@@ -52,4 +52,4 @@ const AddToStoreWishList = (id) => {
 
 
 
-export { AddToStoreCartList, AddToStoreWishList, getStoreCartList ,getStoreWishList}
+export { AddToStoreCartList, AddToStoreWishList, getStoreCartList, getStoreWishList }

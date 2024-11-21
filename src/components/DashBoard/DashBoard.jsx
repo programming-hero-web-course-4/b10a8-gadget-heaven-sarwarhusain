@@ -1,3 +1,4 @@
+
 import React, { useEffect, useState } from 'react';
 import { useLoaderData } from 'react-router-dom';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
@@ -7,7 +8,7 @@ import Wish from '../Wish/Wish';
 
 const DashBoard = () => {
     const [cart, setCart] = useState([])
-    const [wish,setWish]=useState([])
+    const [wish, setWish] = useState([])
     const allProducts = useLoaderData()
 
 

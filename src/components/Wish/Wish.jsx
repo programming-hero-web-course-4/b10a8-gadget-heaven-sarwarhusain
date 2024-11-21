@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Wish = ({ product }) => {
-
+ 
     const { product_id: CurrentProductId, product_img, product_title, price, description, } = product;
     return (
         <div className="mx-auto max-w-screen-xl px-4 sm:px-6  lg:px-8">
@@ -17,7 +17,7 @@ const Wish = ({ product }) => {
                         <div>
                             <h3 className="text-sm text-gray-900">{product_title}</h3>
 
-                            <dl className="mt-0.5 space-y-px text-[10px] text-gray-600">
+                            <div className="mt-0.5 space-y-px text-[10px] text-gray-600">
                                 <div>
                                     <p>{description}</p>
                                 </div>
@@ -25,7 +25,12 @@ const Wish = ({ product }) => {
                                 <div>
                                     <p>Price: {price}</p>
                                 </div>
-                            </dl>
+                                <button
+                                    className=" group inline-block rounded-full bg-gradient-to-r from-purple-200 via-purple-500 to-yellow-200 p-[2px] hover:text-white focus:outline-none focus:ring active:text-opacity-75 px-3"
+
+                                >Add to Cart
+                                </button>
+                            </div>
                         </div>
 
                         <div className="flex flex-1 items-center justify-end gap-2">
