@@ -2,7 +2,7 @@ import { toast } from "react-toastify"
 
 const getStoreCartList = () => {
     // readList
-    const storedListStr = localStorage.getItem('read-list')
+    const storedListStr = localStorage.getItem('cart-list')
     if (storedListStr) {
         const storedList = JSON.parse(storedListStr)
         return storedList
@@ -15,13 +15,13 @@ const getStoreCartList = () => {
 const AddToStoreCartList = (id) => {
     const storedList = getStoreCartList()
     if (storedList.includes(id)) {
-        console.log(id, 'already exist');
+        toast('Already Exist');
     }
     else {
         storedList.push(id)
         const storedListStr = JSON.stringify(storedList)
-        localStorage.setItem('read-list', storedListStr)
-        toast('this book added to your read list')
+        localStorage.setItem('cart-list', storedListStr)
+        toast('This Product Added To Your Cart List')
     }
 }
 
@@ -41,12 +41,13 @@ const getStoreWishList = () => {
 const AddToStoreWishList = (id) => {
     const storedList = getStoreWishList()
     if (storedList.includes(id)) {
-        console.log(id, 'already exist');
+        toast('Already exist');
     }
     else {
         storedList.push(id)
         const storedListStr = JSON.stringify(storedList)
         localStorage.setItem('wish-list', storedListStr)
+        toast('This Product Added To Your Wish List')
     }
 }
 
