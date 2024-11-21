@@ -7,10 +7,10 @@
     "price": 999,
     "description": "A premium smartphone with advanced features and performance.",
     "specification": [
-      "256GB Storage",
-      "48MP Camera",
-      "3200mAh Battery",
-      "A16 Bionic Chip"
+      "1: 256GB Storage",
+      "2: 48MP Camera",
+      "3: 3200mAh Battery",
+      "4: A16 Bionic Chip"
     ],
     "available": true,
     "rating": 4.8
@@ -23,10 +23,10 @@
     "price": 1199,
     "description": "A flagship smartphone with superior camera and performance.",
     "specification": [
-      "512GB Storage",
-      "200MP Camera",
-      "5000mAh Battery",
-      "Snapdragon 8 Gen 2"
+      "1:512GB Storage",
+      "2:200MP Camera",
+      "3:5000mAh Battery",
+      "4:Snapdragon 8 Gen 2"
     ],
     "available": true,
     "rating": 4.9
@@ -39,10 +39,10 @@
     "price": 899,
     "description": "A smartphone with industry-leading AI features and camera quality.",
     "specification": [
-      "128GB Storage",
-      "50MP Camera",
-      "4355mAh Battery",
-      "Google Tensor G3"
+      "1:128GB Storage",
+      "2:50MP Camera",
+      "3:4355mAh Battery",
+      "4:Google Tensor G3"
     ],
     "available": true,
     "rating": 4.7
@@ -55,10 +55,10 @@
     "price": 699,
     "description": "A high-performance smartphone with sleek design.",
     "specification": [
-      "256GB Storage",
-      "50MP Camera",
-      "5000mAh Battery",
-      "Snapdragon 8 Gen 2"
+      "1:256GB Storage",
+      "2:50MP Camera",
+      "3:5000mAh Battery",
+      "4:Snapdragon 8 Gen 2"
     ],
     "available": false,
     "rating": 4.6
@@ -71,10 +71,10 @@
     "price": 799,
     "description": "A flagship smartphone with premium features at a great price.",
     "specification": [
-      "256GB Storage",
-      "50MP Camera",
-      "4820mAh Battery",
-      "Snapdragon 8 Gen 2"
+      "1:256GB Storage",
+      "2:50MP Camera",
+      "3:4820mAh Battery",
+      "4:Snapdragon 8 Gen 2"
     ],
     "available": true,
     "rating": 4.8
@@ -87,10 +87,10 @@
     "price": 2499,
     "description": "A high-performance laptop for professionals and creatives.",
     "specification": [
-      "M2 Pro Processor",
-      "16GB RAM",
-      "512GB SSD Storage",
-      "16-inch Retina Display"
+      "1:M2 Pro Processor",
+      "2:16GB RAM",
+      "3:512GB SSD Storage",
+      "4:16-inch Retina Display"
     ],
     "available": true,
     "rating": 4.9
@@ -103,10 +103,10 @@
     "price": 1999,
     "description": "A sleek and powerful laptop with stunning display quality.",
     "specification": [
-      "Intel i7 Processor",
-      "16GB RAM",
-      "1TB SSD Storage",
-      "15-inch 4K Display"
+      "1:Intel i7 Processor",
+      "2:16GB RAM",
+      "3:1TB SSD Storage",
+      "4:15-inch 4K Display"
     ],
     "available": true,
     "rating": 4.8
@@ -119,10 +119,10 @@
     "price": 1599,
     "description": "A convertible laptop with premium build and performance.",
     "specification": [
-      "Intel i7 Processor",
-      "16GB RAM",
-      "512GB SSD Storage",
-      "13.5-inch OLED Display"
+      "1:Intel i7 Processor",
+      "2:16GB RAM",
+      "3:512GB SSD Storage",
+      "4:13.5-inch OLED Display"
     ],
     "available": false,
     "rating": 4.6
@@ -135,10 +135,10 @@
     "price": 1699,
     "description": "A reliable business laptop with excellent durability and performance.",
     "specification": [
-      "Intel i5 Processor",
-      "16GB RAM",
-      "1TB SSD Storage",
-      "14-inch Display"
+      "1:Intel i5 Processor",
+      "2:16GB RAM",
+      "3:1TB SSD Storage",
+      "4:14-inch Display"
     ],
     "available": true,
     "rating": 4.7
@@ -151,10 +151,10 @@
     "price": 1799,
     "description": "A gaming laptop with top-tier graphics and performance.",
     "specification": [
-      "AMD Ryzen 9",
-      "32GB RAM",
-      "1TB SSD Storage",
-      "14-inch QHD Display"
+      "1:AMD Ryzen 9",
+      "2:32GB RAM",
+      "3:1TB SSD Storage",
+      "4:14-inch QHD Display"
     ],
     "available": true,
     "rating": 4.9
@@ -167,9 +167,9 @@
     "price": 49,
     "description": "A compact smart speaker with Alexa.",
     "specification": [
-      "Compact Design",
-      "Voice Control",
-      "Bluetooth and Wi-Fi Connectivity"
+      "1:Compact Design",
+      "2:Voice Control",
+      "3:Bluetooth and Wi-Fi Connectivity"
     ],
     "available": true,
     "rating": 4.6
@@ -182,9 +182,9 @@
     "price": 399,
     "description": "An advanced action camera for high-quality videos and photos.",
     "specification": [
-      "4K Video Recording",
-      "Waterproof",
-      "HyperSmooth Stabilization"
+      "1:4K Video Recording",
+      "2:Waterproof",
+      "3:HyperSmooth Stabilization"
     ],
     "available": true,
     "rating": 4.8
@@ -197,9 +197,9 @@
     "price": 549,
     "description": "A lightweight and portable drone with advanced features.",
     "specification": [
-      "4K Camera",
-      "GPS",
-      "30-Minute Flight Time"
+      "1:4K Camera",
+      "2:GPS",
+      "3:30-Minute Flight Time"
     ],
     "available": false,
     "rating": 4.7
@@ -212,9 +212,9 @@
     "price": 129,
     "description": "An e-reader with a glare-free display and adjustable light.",
     "specification": [
-      "6-inch Display",
-      "Waterproof",
-      "Weeks of Battery Life"
+      "1:6-inch Display",
+      "2:Waterproof",
+      "3:Weeks of Battery Life"
     ],
     "available": true,
     "rating": 4.8
@@ -227,9 +227,9 @@
     "price": 29,
     "description": "A portable power bank with fast charging capabilities.",
     "specification": [
-      "10,000mAh Capacity",
-      "Compact Design",
-      "USB Fast Charging"
+      "1:10,000mAh Capacity",
+      "2:Compact Design",
+      "3:USB Fast Charging"
     ],
     "available": true,
     "rating": 4.5
@@ -242,9 +242,9 @@
     "price": 399,
     "description": "A versatile smartwatch with fitness and health tracking features.",
     "specification": [
-      "Always-On Retina Display",
-      "18-Hour Battery",
-      "Heart Rate Monitor"
+      "1:Always-On Retina Display",
+      "2:18-Hour Battery",
+      "3:Heart Rate Monitor"
     ],
     "available": true,
     "rating": 4.8
@@ -257,9 +257,9 @@
     "price": 329,
     "description": "A smartwatch designed for fitness enthusiasts and everyday use.",
     "specification": [
-      "Super AMOLED Display",
-      "40-Hour Battery",
-      "GPS Tracking"
+      "1:Super AMOLED Display",
+      "2:40-Hour Battery",
+      "3:GPS Tracking"
     ],
     "available": true,
     "rating": 4.7
@@ -272,9 +272,9 @@
     "price": 229,
     "description": "A smartwatch focused on fitness and wellness tracking.",
     "specification": [
-      "LCD Display",
-      "6-Day Battery Life",
-      "Sleep Analysis"
+      "1:LCD Display",
+      "2:6-Day Battery Life",
+      "3:Sleep Analysis"
     ],
     "available": true,
     "rating": 4.6
@@ -287,9 +287,9 @@
     "price": 399,
     "description": "A smartwatch with advanced fitness and health tracking features.",
     "specification": [
-      "AMOLED Display",
-      "11-Day Battery Life",
-      "Pulse Ox Sensor"
+      "1:AMOLED Display",
+      "2:11-Day Battery Life",
+      "3:Pulse Ox Sensor"
     ],
     "available": false,
     "rating": 4.7
@@ -302,9 +302,9 @@
     "price": 199,
     "description": "An affordable smartwatch with comprehensive fitness tracking.",
     "specification": [
-      "AMOLED Display",
-      "14-Day Battery Life",
-      "GPS Tracking"
+      "1:AMOLED Display",
+      "2:14-Day Battery Life",
+      "3:GPS Tracking"
     ],
     "available": true,
     "rating": 4.5

@@ -3,7 +3,7 @@ import React from 'react';
 const Banner = () => {
     return (
         <div className="bg-[#9538E2] rounded-md  text-white" >
-            <div className="mx-auto max-w-screen-xl px-4 py-32 lg:h-screen lg:items-center">
+            <div className="mx-auto max-w-screen-xl px-4 py-32 -mt-16 lg:items-center">
                 <div className="mx-auto text-center">
                     <h1 className="text-3xl font-extrabold sm:text-4xl">
                         Upgrade Your Tech Accessorize with Gadget Heaven Accessories
