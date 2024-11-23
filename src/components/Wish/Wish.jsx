@@ -11,7 +11,7 @@ const Wish = ({ product }) => {
                         <img
                             src={product_img}
                             alt=""
-                            className="size-16 rounded object-cover"
+                            className="size-16 rounded object-cover ml-1"
                         />
 
                         <div>

@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const Product = ({ product }) => {
-    const { product_title, product_img, price, product_id } = product
+    const { product_title, product_img, price, product_id, description} = product
     return (
         <div className="block rounded-lg p-4 shadow-2xl shadow-indigo-300 m-3">
             <div className='border rounded-xl bg-red-500'>
@@ -14,15 +14,17 @@ const Product = ({ product }) => {
             <div className="mt-2">
                 <div>
                     <div>
+                        <p className="font-medium">{product_title}</p>
+                    </div>
+                    <div>
                         <h2 className="">Price: ${price}</h2>
                     </div>
                     <div>
-                        <p className="font-medium">{product_title}</p>
+                        <h2><span className='font-semibold'>Description: </span><span className='text-sm'>{description}</span></h2>
                     </div>
                     <Link to={`/details/${product_id}`}>
                         <button
                             className="group inline-block rounded-full bg-gradient-to-r from-purple-200 via-purple-500 to-yellow-200 p-[2px] hover:text-white focus:outline-none focus:ring active:text-opacity-75"
-                            
                         >
                             <span
                                 className="block rounded-full bg-white px-8 py-3 text-sm font-medium group-hover:bg-transparent"

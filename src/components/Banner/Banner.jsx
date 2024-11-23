@@ -1,12 +1,18 @@
 import React from 'react';
+import { useLocation } from 'react-router-dom';
 
 const Banner = () => {
+    const location = useLocation()
+    const isHomePage = location.pathname === "/";
+    const isDashPage = location.pathname === "/dashboard";
     return (
         <div className="bg-[#9538E2] rounded-md  text-white" >
-            <div className="mx-auto max-w-screen-xl px-4 py-32 -mt-16 lg:items-center">
+            <div className={`mx-auto max-w-screen-xl px-4 py-32  lg:items-center ${isHomePage ? "-mt-16" : ""}`}>
                 <div className="mx-auto text-center">
-                    <h1 className="text-3xl font-extrabold sm:text-4xl">
-                        Upgrade Your Tech Accessorize with Gadget Heaven Accessories
+                    <h1 className="text-3xl font-extrabold sm:text-4xl -mt-5">
+                        {
+                            isHomePage ? "Upgrade Your Tech Accessorize with Gadget Heaven Accessories" : `${isDashPage ? "DashBoard" : "Statistics"}`
+                        }
                     </h1>
 
                     <p className="mt-4 sm:text-base/relaxed">
@@ -14,14 +20,16 @@ const Banner = () => {
                     </p>
 
                     <div className="mt-8 flex flex-wrap justify-center gap-4">
-                    <button
-                            className="group inline-block rounded-full bg-gradient-to-r from-purple-200 via-purple-500 to-yellow-200 p-[2px] hover:text-black focus:outline-none focus:ring active:text-opacity-75" 
-                            href="#"
-                        >
-                            <span
-                                className="block rounded-full bg-indigo-100 px-8 py-3 text-sm font-medium text-black group-hover:bg-transparent"
-                            >Shop</span>
-                        </button>
+                        {
+                            isHomePage ? <button
+                                className="group inline-block rounded-full bg-gradient-to-r from-purple-200 via-purple-500 to-yellow-200 p-[2px] hover:text-black focus:outline-none focus:ring active:text-opacity-75"
+                               
+                            >
+                                <span
+                                    className="block rounded-full bg-indigo-100 px-8 py-3 text-sm font-medium text-black group-hover:bg-transparent"
+                                >Shop</span>
+                            </button> : ""
+                        }
                     </div>
                 </div>
             </div>

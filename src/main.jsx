@@ -14,10 +14,12 @@ import DashBoard from './components/DashBoard/DashBoard';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
+
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Root></Root>,
+
     children: [
       {
         path: '/',
@@ -30,10 +32,11 @@ const router = createBrowserRouter([
       },
       {
         path: '/statistics',
-        element: <Statistics></Statistics>
+        element: <Statistics></Statistics>,
+        loader:()=> fetch('/productsData.json')
       },
       {
-        path: 'dashboard',
+        path: '/dashboard',
         element: <DashBoard></DashBoard>,
         loader: () => fetch('/productsData.json')
       },
