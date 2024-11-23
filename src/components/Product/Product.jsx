@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const Product = ({ product }) => {
-    const { product_title, product_img, price, product_id, description} = product
+    const { product_title, product_img, price, product_id, description } = product
     return (
         <div className="block rounded-lg p-4 shadow-2xl shadow-indigo-300 m-3">
             <div className='border rounded-xl bg-red-500'>

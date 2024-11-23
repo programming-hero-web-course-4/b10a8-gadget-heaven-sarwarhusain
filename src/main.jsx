@@ -13,12 +13,14 @@ import Statistics from './components/Statistics/Statistics';
 import DashBoard from './components/DashBoard/DashBoard';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import Error from './components/Error/Error';
 
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Root></Root>,
+    errorElement: <Error />,
 
     children: [
       {
@@ -33,7 +35,7 @@ const router = createBrowserRouter([
       {
         path: '/statistics',
         element: <Statistics></Statistics>,
-        loader:()=> fetch('/productsData.json')
+        loader: () => fetch('/productsData.json')
       },
       {
         path: '/dashboard',

@@ -12,8 +12,6 @@ const DashBoard = () => {
     const [cart, setCart] = useState([])
     const [wish, setWish] = useState([])
     const [sort, setSort] = useState()
-    
-
     const allProducts = useLoaderData()
 
 
@@ -48,8 +46,6 @@ const DashBoard = () => {
     const handleWish = (sortType) => {
         setSort(sortType)
 
-        //
-
         if (sortType === 'Sorted') {
             const sortedWishList = [...wish].sort((a, b) => b.price - a.price)
             setWish(sortedWishList)
@@ -64,7 +60,7 @@ const DashBoard = () => {
 
             <Tabs>
                 <Banner></Banner>
-                <TabList className="flex gap-3 justify-center py-7 -mt-32">
+                <TabList className="flex gap-3 justify-center py-7 -mt-44 bg-red">
                     <Tab className="group inline-block rounded-full bg-gradient-to-r from-purple-200 via-purple-500 to-yellow-200 p-[2px] hover:text-white focus:outline-none focus:ring active:text-opacity-75"><span
                         className="block rounded-full bg-white px-8 py-3 text-sm font-medium group-hover:bg-transparent"
                     >Cart</span></Tab>
@@ -76,8 +72,8 @@ const DashBoard = () => {
                 </TabList>
 
                 <TabPanel className="bg-gray-100 pt-12 pb-12">
-                    <div className='flex justify-between '>
-                        <h2 className='text-2xl font-semibold ml-56'>Cart</h2>
+                    <div className='lg:flex justify-between '>
+                        <h2 className='text-2xl font-semibold lg:ml-56'>Cart</h2>
                         <h2>Total Cost: </h2>
                         <button onClick={() => handleCart('Sorted')}
                             className="group inline-block rounded-full bg-gradient-to-r from-purple-200 via-purple-500 to-yellow-200 p-[2px] hover:text-black focus:outline-none focus:ring active:text-opacity-75"
@@ -108,8 +104,8 @@ const DashBoard = () => {
 
                 </TabPanel>
                 <TabPanel className="bg-gray-100">
-                    <div className='flex justify-between '>
-                        <h2 className='text-2xl font-semibold ml-56'>WishList</h2>
+                    <div className='lg:flex justify-between '>
+                        <h2 className='text-2xl font-semibold lg:ml-56'>WishList</h2>
                         <h2>Total Cost: </h2>
                         <button onClick={() => handleWish('Sorted')}
                             className="group inline-block rounded-full bg-gradient-to-r from-purple-200 via-purple-500 to-yellow-200 p-[2px] hover:text-black focus:outline-none focus:ring active:text-opacity-75"
@@ -123,6 +119,7 @@ const DashBoard = () => {
                                 }
                             </span>
                         </button>
+
                         <button
                             className="group inline-block rounded-full bg-gradient-to-r from-purple-200 via-purple-500 to-yellow-200 p-[2px] hover:text-black focus:outline-none focus:ring active:text-opacity-75"
 
@@ -131,6 +128,7 @@ const DashBoard = () => {
                                 className="block rounded-full bg-indigo-100 px-8 py-3 text-sm font-medium text-black group-hover:bg-transparent"
                             >Purchase</span>
                         </button>
+
                     </div>
                     <div className=''>
                         {

@@ -22,7 +22,7 @@ const Details = () => {
 
 
     return (
-        <div className="hero border mt-10 px-14 w-2/3 mx-40 rounded-xl">
+        <div className="hero border mt-10 px-14 rounded-xl">
             <div className="hero-content flex-col lg:flex-row">
                 <img className='w-64'
                     alt=""
@@ -38,7 +38,8 @@ const Details = () => {
                             {
                                 available ? <button className='border rounded-full m-1 p-1 bg-green-100'>in Stoke </button> : <button className='border rounded-full m-1 p-1 bg-green-100'>out Of Stoke</button>
 
-                            }                        </div>
+                            }
+                        </div>
                         <p className='my-3 text-gray-500'>{description}</p>
                         <div><span className='font-bold'>Specification:</span>
                             <div className='text-gray-500'>
@@ -66,7 +67,7 @@ const Details = () => {
 
                         <button onClick={() => handleCart(product_id)}
                             className="group inline-block rounded-full bg-gradient-to-r from-purple-200 via-purple-500 to-yellow-200 p-[2px] hover:text-white focus:outline-none focus:ring active:text-opacity-75"
-                           
+
                         ><span
                             className="block rounded-full bg-white px-8 py-3 text-sm font-medium group-hover:bg-transparent"
                         ><span className='flex'>Add to Cart <img className='w-4 mx-2' src="https://img.icons8.com/?size=48&id=3337&format=png" alt="" /></span></span>
